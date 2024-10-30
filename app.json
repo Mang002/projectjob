@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "LocalWisdom",
+    "slug": "project00",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Image/lolo002.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.usmanhayicheni.project00",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAoYt-UAw6oOgbkAfzXvAcygTx3Nr_YO-0"
+        }
+      },
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b97476b-b264-4733-be47-561932ed315c"
+      }
+    },
+    "owner": "usmanhayicheni"
+  }
+}
